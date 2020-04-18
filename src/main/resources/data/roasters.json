@@ -1,0 +1,98 @@
+[
+  {
+    "id": "08fa6ef4-0c64-4635-8a9d-c4ac973c04dc",
+    "name": "Little Wolf Coffee",
+    "urls": [
+      {
+        "name": "HOME",
+        "url": "https://littlewolf.coffee/"
+      },
+      {
+        "name": "SCRAPE",
+        "url": "https://littlewolf.coffee/collections/shop"
+      }
+    ],
+    "status": "DISABLED",
+    "createdAt": "2020-04-18T13:10:53Z"
+  },
+  {
+    "id": "2b8df1e8-6cf5-4cdf-9f84-a819bf23301d",
+    "name": "Flatlands Coffee",
+    "urls": [
+      {
+        "name": "HOME",
+        "url": "https://www.flatlandscoffee.com/"
+      },
+      {
+        "name": "SCRAPE",
+        "url": "https://www.flatlandscoffee.com/shop"
+      }
+    ],
+    "status": "DISABLED",
+    "createdAt": "2020-04-18T13:10:53Z"
+  },
+  {
+    "id": "f25a57d2-093c-43f0-b4d8-a2da75ef6ad0",
+    "name": "Counter Culture Coffee",
+    "urls": [
+      {
+        "name": "HOME",
+        "url": "https://counterculturecoffee.com/"
+      },
+      {
+        "name": "SCRAPE",
+        "url": "https://counterculturecoffee.com/shop/category/coffee"
+      }
+    ],
+    "status": "DISABLED",
+    "createdAt": "2020-04-18T13:10:53Z"
+  },
+  {
+    "id": "b1c73bd3-72ba-4b4b-aef2-68bd9149ee84",
+    "name": "Verve Coffee Roasters",
+    "urls": [
+      {
+        "name": "HOME",
+        "url": "https://www.vervecoffee.com/"
+      },
+      {
+        "name": "SCRAPE",
+        "url": "https://www.vervecoffee.com/collections/all-coffee"
+      }
+    ],
+    "status": "DISABLED",
+    "createdAt": "2020-04-18T13:10:53Z"
+  },
+  {
+    "id": "56d2464e-f784-44ca-ad0b-eec19659a32a",
+    "name": "Scratch Living Coffee",
+    "urls": [
+      {
+        "name": "HOME",
+        "url": "https://www.fromscratchliving.com/"
+      },
+      {
+        "name": "SCRAPE",
+        "url": "https://www.fromscratchliving.com/shop"
+      }
+    ],
+    "status": "DISABLED",
+    "createdAt": "2020-04-18T13:10:53Z"
+  },
+  {
+    "id": "bd4d5dac-ca1b-498c-84c1-f6a24bf36571",
+    "name": "Sweet Bloom Coffee Roasters",
+    "urls": [
+      {
+        "name": "HOME",
+        "url": "https://sweetbloomcoffee.com/"
+      },
+      {
+        "name": "SCRAPE",
+        "url": "https://sweetbloomcoffee.com/collections/coffee"
+      }
+    ],
+    "status": "DISABLED",
+    "createdAt": "2020-04-18T13:10:53Z"
+  }
+]
