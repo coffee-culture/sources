@@ -1,9 +1,12 @@
-package com.coffeeculture.sources.models.data
+package com.coffeeculture.sources.models.view
 
+import com.fasterxml.jackson.databind.PropertyNamingStrategy
+import com.fasterxml.jackson.databind.annotation.JsonNaming
 import java.net.URL
 import java.time.Instant
 
-data class Roaster(
+@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy::class)
+data class RoasterViewModel(
     val id: String,
     val name: String,
     val urls: List<RoasterUrl>,

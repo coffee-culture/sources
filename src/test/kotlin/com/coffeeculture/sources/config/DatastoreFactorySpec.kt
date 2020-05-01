@@ -3,7 +3,7 @@ package com.coffeeculture.sources.config
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import com.coffeeculture.sources.common.JacksonConfig
-import com.coffeeculture.sources.common.Roasters
+import com.coffeeculture.sources.common.testdata.Roasters
 import io.micronaut.core.io.scan.DefaultClassPathResourceLoader
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

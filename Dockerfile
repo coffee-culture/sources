@@ -3,7 +3,7 @@ FROM adoptopenjdk/openjdk11-openj9:jdk-11.0.6_10_openj9-0.18.1-alpine-slim as bu
 WORKDIR /app
 COPY . ./
 
-RUN ./gradlew build shadowJar
+RUN ./gradlew build
 
 FROM adoptopenjdk/openjdk11-openj9:jre-11.0.6_10_openj9-0.18.1-alpine as release
 

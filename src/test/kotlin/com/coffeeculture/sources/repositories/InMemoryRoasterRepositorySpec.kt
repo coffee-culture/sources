@@ -4,7 +4,7 @@ import assertk.assertThat
 import assertk.assertions.isEqualTo
 import assertk.assertions.isNull
 import com.coffeeculture.sources.common.JacksonConfig
-import com.coffeeculture.sources.common.Roasters
+import com.coffeeculture.sources.common.testdata.Roasters
 import com.coffeeculture.sources.config.DatastoreFactory
 import io.micronaut.core.io.scan.DefaultClassPathResourceLoader
 import org.spekframework.spek2.Spek

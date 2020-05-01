@@ -1,3 +1,9 @@
 micronaut:
   application:
     name: sources
+jackson:
+  serialization:
+    writeDatesAsTimestamps: false
+logger:
+  levels:
+    root: INFO

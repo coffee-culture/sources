@@ -4,12 +4,12 @@
     "name": "Little Wolf Coffee",
     "urls": [
       {
-        "name": "HOME",
-        "url": "https://littlewolf.coffee/"
+        "type": "HOME",
+        "value": "https://littlewolf.coffee/"
       },
       {
-        "name": "SCRAPE",
-        "url": "https://littlewolf.coffee/collections/shop"
+        "type": "SCRAPE",
+        "value": "https://littlewolf.coffee/collections/shop"
       }
     ],
     "status": "DISABLED",
@@ -20,12 +20,12 @@
     "name": "Flatlands Coffee",
     "urls": [
       {
-        "name": "HOME",
-        "url": "https://www.flatlandscoffee.com/"
+        "type": "HOME",
+        "value": "https://www.flatlandscoffee.com/"
       },
       {
-        "name": "SCRAPE",
-        "url": "https://www.flatlandscoffee.com/shop"
+        "type": "SCRAPE",
+        "value": "https://www.flatlandscoffee.com/shop"
       }
     ],
     "status": "DISABLED",
@@ -36,12 +36,12 @@
     "name": "Counter Culture Coffee",
     "urls": [
       {
-        "name": "HOME",
-        "url": "https://counterculturecoffee.com/"
+        "type": "HOME",
+        "value": "https://counterculturecoffee.com/"
       },
       {
-        "name": "SCRAPE",
-        "url": "https://counterculturecoffee.com/shop/category/coffee"
+        "type": "SCRAPE",
+        "value": "https://counterculturecoffee.com/shop/category/coffee"
       }
     ],
     "status": "DISABLED",
@@ -52,12 +52,12 @@
     "name": "Verve Coffee Roasters",
     "urls": [
       {
-        "name": "HOME",
-        "url": "https://www.vervecoffee.com/"
+        "type": "HOME",
+        "value": "https://www.vervecoffee.com/"
       },
       {
-        "name": "SCRAPE",
-        "url": "https://www.vervecoffee.com/collections/all-coffee"
+        "type": "SCRAPE",
+        "value": "https://www.vervecoffee.com/collections/all-coffee"
       }
     ],
     "status": "DISABLED",
@@ -68,12 +68,12 @@
     "name": "Scratch Living Coffee",
     "urls": [
       {
-        "name": "HOME",
-        "url": "https://www.fromscratchliving.com/"
+        "type": "HOME",
+        "value": "https://www.fromscratchliving.com/"
       },
       {
-        "name": "SCRAPE",
-        "url": "https://www.fromscratchliving.com/shop"
+        "type": "SCRAPE",
+        "value": "https://www.fromscratchliving.com/shop"
       }
     ],
     "status": "DISABLED",
@@ -84,12 +84,12 @@
     "name": "Sweet Bloom Coffee Roasters",
     "urls": [
       {
-        "name": "HOME",
-        "url": "https://sweetbloomcoffee.com/"
+        "type": "HOME",
+        "value": "https://sweetbloomcoffee.com/"
       },
       {
-        "name": "SCRAPE",
-        "url": "https://sweetbloomcoffee.com/collections/coffee"
+        "type": "SCRAPE",
+        "value": "https://sweetbloomcoffee.com/collections/coffee"
       }
     ],
     "status": "DISABLED",
