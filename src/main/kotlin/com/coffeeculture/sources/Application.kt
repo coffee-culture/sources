@@ -1,4 +1,4 @@
-package com.coffeeculture
+package com.coffeeculture.sources
 
 import io.micronaut.runtime.Micronaut
 

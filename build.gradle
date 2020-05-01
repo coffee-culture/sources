@@ -64,7 +64,7 @@ dependencies {
 
 test.classpath += configurations.developmentOnly
 
-mainClassName = "com.coffeeculture.Application"
+mainClassName = "com.coffeeculture.sources.Application"
 
 test {
     useJUnitPlatform()
