@@ -42,9 +42,11 @@ dependencies {
     kaptTest platform("io.micronaut:micronaut-bom:$micronautVersion")
     kaptTest "io.micronaut:micronaut-inject-java"
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
+    testImplementation 'io.rest-assured:rest-assured:4.2.0'
+    testImplementation 'io.rest-assured:kotlin-extensions:4.2.0'
     testImplementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     testImplementation "io.micronaut.test:micronaut-test-kotlintest"
-    testImplementation "io.mockk:mockk:1.9.3"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
     testImplementation "io.kotlintest:kotlintest-runner-junit5:3.3.2"
 
     // AssertK
@@ -52,6 +54,7 @@ dependencies {
 
     // Spek
     testImplementation "org.jetbrains.kotlin:kotlin-test:$kotlinVersion"
+
     testImplementation ("org.spekframework.spek2:spek-dsl-jvm:$spekVersion") {
         exclude group: 'org.jetbrains.kotlin'
     }
@@ -59,6 +62,7 @@ dependencies {
         exclude group: 'org.junit.platform'
         exclude group: 'org.jetbrains.kotlin'
     }
+
     testRuntimeOnly "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
 }
 
@@ -68,7 +72,7 @@ mainClassName = "com.coffeeculture.sources.Application"
 
 test {
     useJUnitPlatform()
-    testLogging.events("passed", "skipped", "failed")
+    testLogging.events "passed", "skipped", "failed"
 }
 
 allOpen {
